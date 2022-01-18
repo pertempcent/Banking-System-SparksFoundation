@@ -1,0 +1,166 @@
+body {
+    background: #fffdcf;
+    
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.bg-custom {
+    background-color: lightgreen !important;
+}
+
+/*********************Buttons***************************/
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+} 
+ 
+.btn:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+} 
+ 
+.btn-bottom-stripe {
+  border: 0px;
+  background: rgb(255, 255, 255);
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 56px 22px;
+  border-radius: 6px;
+  margin: 0px 0px 16px;
+  transition: all 0.5s ease 0s;
+  overflow: hidden;
+  position: relative;
+} 
+ 
+.btn-bottom-stripe::after {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-size: 7px 7px;
+} 
+ 
+.btn-bottom-stripe:hover {
+  color: rgb(255, 255, 255);
+} 
+ 
+.btn-bottom-stripe:hover::after {
+  background-image: repeating-linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255) 1px, transparent 2px, transparent 5px);
+  animation: 12s linear 0s infinite normal forwards running stripe-slide;
+} 
+ 
+.btn-bottom-stripe--green {
+  color: rgb(83, 187, 107);
+  border: 2px solid rgb(83, 187, 107);
+} 
+ 
+.btn-bottom-stripe--green::after {
+  border-top: 2px solid rgb(83, 187, 107);
+  background-image: repeating-linear-gradient(45deg, rgb(83, 187, 107), rgb(83, 187, 107) 1px, transparent 2px, transparent 5px);
+} 
+ 
+.btn-bottom-stripe--green:hover {
+  background-color: rgb(83, 187, 107);
+} 
+ 
+
+
+
+/*******************************************************************************************************************/
+
+.btn1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+} 
+ 
+.btn1:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+} 
+ 
+.btn-bottom-stripe1 {
+  border: 0px;
+  background: rgb(255, 255, 255);
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 56px 22px;
+  border-radius: 6px;
+  margin: 0px 0px 16px;
+  transition: all 0.5s ease 0s;
+  overflow: hidden;
+  position: relative;
+} 
+ 
+.btn-bottom-stripe1::after {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-size: 7px 7px;
+} 
+ 
+.btn-bottom-stripe1:hover {
+  color: rgb(255, 255, 255);
+} 
+ 
+.btn-bottom-stripe1:hover::after {
+  background-image: repeating-linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255) 1px, transparent 2px, transparent 5px);
+  animation: 12s linear 0s infinite normal forwards running stripe-slide;
+} 
+ 
+.btn-bottom-stripe--green1 {
+  color: rgb(83, 187, 107);
+  border: 2px solid rgb(83, 187, 107);
+} 
+ 
+.btn-bottom-stripe--green1::after {
+  border-top: 2px solid rgb(83, 187, 107);
+  background-image: repeating-linear-gradient(45deg, rgb(83, 187, 107), rgb(83, 187, 107) 1px, transparent 2px, transparent 5px);
+} 
+ 
+.btn-bottom-stripe--green1:hover {
+  background-color: rgb(83, 187, 107);
+} 
+
+
+
+
