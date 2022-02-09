@@ -13,7 +13,7 @@
 
     <h1 style="text-align: center; padding-top: 50px;"><u>ABOUT SPARKS BANK</u></h1>
     <img src="./img/logo.jpeg" style="display: block; margin: auto;">
-   <p style="font-size: 35px; padding: 60px 60px 60px 60px;">Sparks bank is a online browser based bank where: you can transact money from one account to another, check your balance at any instant and check transaction history. It is a fast and reliable way of transferring money from account to account.</p>
+   <p style="font-size: 35px; padding: 60px 60px 60px 60px;">Sparks bank is an online browser based bank where: you can transact money from one account to another, check your balance at any instant and check transaction history. It is a fast and reliable way of transferring money from account to account.</p>
  
 
 </body>
